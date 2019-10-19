@@ -13,6 +13,10 @@ def assign_rooms(attendees)
   
  attendees.collect.with_index(1) do |attendee,index|
  
-  #"Hello, #{attendee}! You'll be assigned to room #{!"
+  "Hello, #{attendee}! You'll be assigned to room #{index}!"
+end 
+end 
   
- # printer
+def printer(attendees)
+  batch_badge_creator(attendees).each do ||
+  
